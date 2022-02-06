@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log-In</title>
+    <!-- google font  -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- external css -->
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -31,11 +33,9 @@
                 <div class="other_option">
                     <button onclick="reset()" class="button register_submit">
                         <span class="button__text">Reset</span>
-                        <!-- <i class="button__icon fas fa-chevron-right"></i> -->
                     </button>	
                     <button onclick="signUp()" class="button register_submit">
                         <span class="button__text">new user</span>
-                        <!-- <i class="button__icon fas fa-chevron-right"></i> -->
                     </button>	    
                 </div>
             </div>
@@ -47,11 +47,11 @@
             </div>		
         </div>
     </div>
+    <!-- firebase data  -->
     <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <!-- external js files -->
     <script src="./firebase.js"></script>
     <script src="./index.js"></script>
 </body>

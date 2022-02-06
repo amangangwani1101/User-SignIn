@@ -1,3 +1,4 @@
+// user authenticity
 firebase.auth().onAuthStateChanged((user)=>{
     if(!user)
     {
@@ -8,7 +9,7 @@ firebase.auth().onAuthStateChanged((user)=>{
         document.getElementById("user").innerHTML = "Hello "+user.email;
     }
 });
-
+// logout credentials
 function logout(){
     if(confirm("Are You Sure!.You Want To Log Out.."))
         firebase.auth().signOut()

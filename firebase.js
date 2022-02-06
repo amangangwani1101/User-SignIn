@@ -1,3 +1,4 @@
+// API keys of project files
 const firebaseConfig = {
     apiKey: "AIzaSyBHabJ6JhfrVk6FeBoZaHtNwIu5uLErILw",
     authDomain: "fir-project-d1148.firebaseapp.com",
